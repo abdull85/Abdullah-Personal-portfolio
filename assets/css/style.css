@@ -1924,3 +1924,19 @@ textarea.form-input::-webkit-resizer { display: none; }
   color: #fff;
   font-size: 24px;
 }
+.resume-button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color:burlywood; /* Green background */
+  color: white; /* White text */
+  text-align: center;
+  text-decoration: none; /* Remove underline */
+  border-radius: 5px; /* Rounded corners */
+  transition: background-color 0.3s; /* Smooth hover effect */
+}
+
+.resume-button:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
