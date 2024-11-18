@@ -1938,5 +1938,8 @@ textarea.form-input::-webkit-resizer { display: none; }
 }
 
 .resume-button:hover {
-  background-color: #45a049; /* Darker green on hover */
+  background-color: rgb(80, 80, 173); /* Darker blue on hover */
+  color: #ffffff; /* White text */
+  transform: scale(1.05); /* Slightly enlarge the button */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a shadow effect */
 }
