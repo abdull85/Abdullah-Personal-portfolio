@@ -1943,3 +1943,30 @@ textarea.form-input::-webkit-resizer { display: none; }
   transform: scale(1.05); /* Slightly enlarge the button */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a shadow effect */
 }
+.hire-me-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.hire-me-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background-color: whitesmoke; /* Primary button color */
+  color: black;
+  text-decoration: none;
+  padding: 12px 24px;
+  border-radius: 30px;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hire-me-btn:hover {
+  background-color: #007BFF;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.hire-me-btn ion-icon {
+  font-size: 20px;
+}
