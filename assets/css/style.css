@@ -1943,19 +1943,3 @@ textarea.form-input::-webkit-resizer { display: none; }
   transform: scale(1.05); /* Slightly enlarge the button */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a shadow effect */
 }
-.social-item {
-  list-style: none;
-  display: inline-block;
-  margin: 0 10px;
-}
-
-.social-link {
-  color: #25D366; /* WhatsApp green */
-  text-decoration: none;
-  font-size: 24px; /* Adjust icon size */
-  transition: color 0.3s ease;
-}
-
-.social-link:hover {
-  color: #1C774C; /* Darker green on hover */
-}
